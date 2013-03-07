@@ -1,0 +1,9 @@
+@import url("template/background.css");
+@import url("template/private_header.css");
+
+body
+{
+	margin: 0;
+	padding: 0;
+}
+

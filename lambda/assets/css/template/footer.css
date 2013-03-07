@@ -1,0 +1,56 @@
+
+	html, body {
+		height: 100%;
+	}
+
+	.push{
+		height: 50px;
+		clear: both;
+	}
+	
+	#copyright, #webmaster{
+		text-align: center;
+		/*color: rgb(50,50,50);*/
+		color: rgb(240,240,240);
+		margin: 0;
+		font-size: 11px;
+		line-height: 13px;
+		
+	}
+	#container {
+		min-height: 100%;
+		height: auto !important;
+		height: 100%;
+		margin: 0 auto -50px;
+		/*padding-top: 150px;*/
+		position: relative;
+				
+	}
+	/*footer*/
+	#footer{
+		clear: both;
+		position: relative;
+		z-index: 1;
+		padding-top: 10px;
+		height: 40px;
+		overflow: hidden;
+		font-family: 'Linden Hill', serif;
+	}
+	#fb {
+		position: fixed;
+
+		width: 28px;
+		height: 28px;
+		right: 5px;
+		top: 20%;
+		margin-top: -32px;
+		
+	}
+	#fb{
+		opacity: 0.7;
+	}
+	#fb img{
+		
+		width: 28px;
+		height: 28px;
+	}

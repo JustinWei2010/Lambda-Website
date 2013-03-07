@@ -1,0 +1,92 @@
+#header{
+	position: absolute;
+	top: 0;
+	width: 950px;
+	left: 50%;
+	margin-left: -475px;
+	height: 140px;
+	z-index: 99;
+}
+
+#header #title{
+	text-align: center;
+	font-family: 'Fredericka the Great';
+	font-size: 47px;
+	letter-spacing: 5px;
+	padding-bottom: 5px;
+	margin: 0;
+	height: 85px;
+	border-bottom: 1px solid #7D7C7B;
+}
+
+#header #menu{
+	list-style: none;
+	font-style: normal;
+	padding: 0 0 5px 0;
+	font-size: 14px;
+	width: 600px;
+	height: 20px;
+	position: relative;
+	margin: 5px auto 0 auto;
+	border-bottom: 1px solid #7D7C7B;
+	
+}
+
+#header #menu >li{
+	float: left;
+	width: 120px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+}
+
+#header #menu >li a{
+	color: white;
+	text-decoration: none;
+}
+
+#header #menu >li div.sub_tab{
+	display: none;
+	background: rgba(255,255,255,0.2);
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#header #menu >li div.sub_tab ul{
+	list-style: none;
+	position: relative;
+	padding: 0;
+}
+
+#header #menu >li div.sub_tab ul >li{
+	width: 120px;
+	text-align: center;
+	height: 20px;
+	line-height: 20px;
+	margin-bottom: 3px;
+}	
+
+#header #menu >li div.sub_tab ul >li a{
+	color: #7D7C7B;
+
+
+}
+
+#header #menu >li div.sub_tab ul >li:hover a{
+	color: #3469ff;
+	cursor: pointer;	
+}
+
+#header #menu >li div.sub_tab ul >li:hover{
+	background: rgba(10,10,10,0.3);
+}
+
+#header #menu >li:hover a{
+	color: #3469ff;
+	cursor: pointer;
+}
+
+#header #menu >li:hover{
+	background: rgba(10,10,10,0.1);
+}

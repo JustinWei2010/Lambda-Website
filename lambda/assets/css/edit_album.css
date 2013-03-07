@@ -1,0 +1,149 @@
+
+
+body {
+	font: 12px/16px Arial, Helvetica, sans-serif;
+    
+}
+#container{
+	width: 500px;
+	left: 600px;
+	position: absolute;
+	text-align: center;  
+}
+#album h3{
+	display: inline;
+	
+}
+#uploadQueue {
+	width: 400px;
+	height: 400px;
+	overflow: auto;
+	border: 1px solid #E5E5E5;
+	margin-bottom: 10px;
+    margin-left: auto;
+    margin-right:auto;
+}
+#uploadQueue div{
+	position: relative;
+}
+body a{
+	text-decoration: none;
+}
+#add_album{
+	position: absolute;
+	width: 400px;
+	height: 83px;
+	border: rgba(10,10,10,0.5) solid 1px;
+	line-height: 27px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	text-align: center;  
+}
+#add_album h3, #del_album h3, #edit_album h3{
+	margin: 0;
+}
+#add_album input, #edit_album input{
+	width: 90px;
+	margin: 0 2px;
+}
+#add_album input#submit{
+	width: auto;
+}
+#add_album select{
+	
+	
+}
+#edit_album{
+	position: absolute;
+	width: 400px;
+	height: 83px;
+	border: rgba(10,10,10,0.5) solid 1px;
+	line-height: 27px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	text-align: center;  
+	top: 100px;
+}
+#edit_album h3, #edit_album select, #edit_album #paid{
+	display: inline;
+}
+#edit_album #paid{
+	margin-left: 10px;
+}
+#del_album{
+	position: absolute;
+	width: 400px;
+	height: 60px;
+	
+	border: rgba(10,10,10,0.5) solid 1px;
+	-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+	border-radius: 5px;
+	text-align: center;
+	top: 190px;
+
+}
+#del_album p{
+	font-size: 11px;
+	margin: 0;
+	color: red;
+}
+#album_photos{
+	position: absolute;
+	width: 620px;
+	min-height: 60px;
+	border: rgba(10,10,10,0.5) solid 1px;
+	-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+	border-radius: 5px;
+	text-align: center;
+	top: 260px;
+
+}
+#album_photos h3{
+	margin: 0;
+	display: inline;
+	
+}
+#album_photos #photos{
+	width: 616px;
+	padding: 0 2px;
+	position: relative;
+	border-top: 1px black dotted;
+}
+#album_photos #photos .photo_wrap
+{
+	margin: 5px;
+	float: left;
+	border: 1px solid #ccc;
+	position: relative;
+	padding: 2px;
+	
+}
+#album_photos #photos .photo_wrap:hover{
+	border: 1px solid red;
+}
+
+#album_photos #photos .photo_wrap img.photo{
+	width:103px;
+	height: 103px;
+	padding: 3px;
+	
+	
+}
+
+#album_photos #photos .photo_wrap img.delete{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	top: -12px;
+	right:-12px;
+	display:none;
+}
+#album_photos #photos .photo_wrap img.delete:hover{
+	cursor: pointer;
+}
+
+
